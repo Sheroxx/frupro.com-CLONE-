@@ -1,0 +1,144 @@
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    font-size:18px;
+}
+
+.bt-color {
+    background-color: #6bcdaf!important;
+    border: none;
+}
+
+.bt-color-2 {
+    background-color: #f86000 !important;
+    border: none;
+}
+
+.bt-color-3 {
+    background-color: #e7732a !important;
+    border: none;
+}
+
+/* Mobile Banner Centered */
+
+@media screen and (max-width: 576px) {
+    .mobile-centered{
+     text-align: center;
+   }
+
+   .mobile-size-video {
+    height: 350px;
+   }
+
+   /* Home Page Multi Slider CSS */
+   
+   .multi-slider {
+    touch-action: pan-y;
+    overflow-x: hidden;
+   }
+
+   /* Blog Card CSS */
+
+   .mobile-position {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+    padding-right:30px!important;
+    padding-left:30px!important;
+   }
+
+   /* Mobile Prefooter Font */
+
+   .mobile-btn-font {
+    font-size:12px!important;
+   }
+
+   /* Mobile Router CSS */
+   .mobile-router {
+    padding: 0px!important;
+    margin:4px!important; 
+   }
+
+   .text-mobile-font {
+    font-size:8px!important;
+   }
+   
+   .icon-mobile-resp {
+    max-width: 30px;
+   }
+ }
+
+hr {
+    /* color: #fff; */
+    border-top-width:3px;
+    width: 75%;
+}
+
+.hover-mob {
+    transition: all 0.3s ease-in-out;
+    color:#fff;
+    text-decoration: none!important;
+}
+
+.hover-mob:hover{
+    color:#fff;
+    transition: color ;
+    text-decoration: none!important;
+}
+
+
+.muted {
+    opacity:0.3;
+    color:#fff;
+    text-decoration: none!important;
+    transition: all 0.2s ease-in-out;
+}
+
+.muted:after {
+    opacity: 1;
+}
+
+
+.img-transition > img {
+    filter: brightness(70%);
+    transition: transform 1s ease-in-out;
+}
+
+.text-overflow {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: wrap;
+  }
+
+
+  /* Blog Card CSS */
+
+  .border-none {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    border: none;
+  }
+
+  .card-height {
+    height: 700px!important;
+    overflow: hidden;
+    max-height: 700px;
+   }
+
+   /* PreFooter Container Filter */
+
+.background-filter {
+    background-image: url(https://frupro.com/wp-content/themes/brooklyn/images/overlay-pattern3.png), url(https://frupro.com/wp-content/uploads/2021/06/orchard-1872997_1920.jpg?id=6823);
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+  background-position: center;
+}
+
+.scroll-to-top-btn {
+    border:none;
+    padding-top: 10px;
+    padding-bottom:10px;
+    padding-left:15px;
+    padding-right:15px;
+    border-radius: 10px 10px 0px 0px;
+}
